@@ -1,0 +1,270 @@
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header__container {
+    padding-top: 30px;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .header__nav__item + .header__nav__item {
+    margin-left: 0px;
+  }
+
+  .services__list {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 35px;
+  }
+
+  .slider__heading {
+    text-align: center;
+  }
+
+  .slider__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slider__text {
+    margin-left: 40px;
+  }
+
+  .recomment__content,
+  .recomment__img {
+    padding: 0;
+  }
+
+  .recomment__content + .recomment__img {
+    padding: 0 0 0 80px;
+  }
+
+  .flex-reverse .recomment__content + .recomment__img {
+    padding: 0 80px 0 0;
+  }
+
+  .article__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article__item {
+    width: 100%;
+    box-shadow: 10px 40px 50px rgba(112, 111, 111, 0.1);
+  }
+
+  .article__item + .article__item {
+    margin-top: 40px;
+  }
+
+  #footer {
+    text-align: center;
+    padding: 30px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+
+  .main-btn {
+    margin-top: 30px;
+  }
+
+  .header__container {
+    margin: 0 15px;
+    padding-top: 20px;
+  }
+
+  .logo {
+    width: 100%;
+    position: relative;
+    cursor: default;
+  }
+
+  .header__nav--mobile {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+  }
+
+  .header__content {
+    display: flex;
+  }
+
+  .header__text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header__text__heading {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .header__text__content {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .body__container {
+    margin: 0 25px;
+  }
+
+  .services__text {
+    line-height: 22px;
+    margin: 0;
+  }
+
+  .services__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services__item {
+    box-shadow: 10px 40px 50px rgba(112, 111, 111, 0.1);
+  }
+
+  .recomment {
+    width: 100%;
+    justify-content: center;
+    margin-top: 150px;
+  }
+
+  .recomment__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .recomment__content {
+    padding: 0;
+  }
+
+  .recomment__text {
+    line-height: 24px;
+  }
+
+  .slider {
+    margin: 170px -25px;
+  }
+
+  .slider__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0;
+    padding: 30px 15px;
+  }
+
+  .slider__heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .slider__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slider__info__avatar img {
+    width: 75px;
+  }
+
+  .slider__info__text {
+    margin: 0 0 0 20px;
+  }
+  .slider__info__name {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 4px;
+  }
+
+  .slider__info__title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 2px;
+  }
+
+  .slider__text {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .slider__pagination {
+    padding: 0 30px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .article {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .article__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article__item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+  }
+
+  .article__item + .article__item {
+    margin-top: 25px;
+  }
+
+  .article__item__img {
+    width: 100%;
+  }
+
+  .article__item__container {
+    padding: 8px;
+  }
+
+  .article__item__title {
+    margin: 0;
+    width: 100%;
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .article__item__text {
+    margin: 10px 0 0 0;
+    line-height: 22px;
+  }
+
+  #footer {
+    display: flex;
+    padding: 30px 20px 20px;
+    text-align: center;
+  }
+
+  .footer__recomment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+}
